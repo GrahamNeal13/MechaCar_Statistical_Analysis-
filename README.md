@@ -70,4 +70,16 @@ Now things get interesting, since the p-value for Lot3 is below our threshold we
 
 ## Study Design: MechaCar vs Competition
 
+If we are to truly test the MechaCar against the competition then we will need to statiscally measure its performance versus the best selling cars in the market.  By understanding the different data types we can see that Miles Per gallon and horse power are both statistics that consumers look at.  
 
+![id_data_type.png](https://github.com/GrahamNeal13/MechaCar_Statistical_Analysis-/blob/7756d61a2a458b3658b711cc92b7546a739eba59/resources/id_data_type.png)
+
+Using these and other similar performance statistics like also Drivetrain we can compare the MechaCar to a competitor in an Two Sample Test, much like what we did with the suspension coil performance.  This will allow us to show that the MechaCar outperforms similar cars in its class type. 
+
+![select_stat_test.png](https://github.com/GrahamNeal13/MechaCar_Statistical_Analysis-/blob/7756d61a2a458b3658b711cc92b7546a739eba59/resources/select_stat_test.png)
+
+Then using the A/B testing critieria we can show how much better the MechaCar is than its competitors.  This would also show us if we have room for improvement and if there are other models of car that perform better than the MechaCar.  
+
+![a:b_test_crit.png](https://github.com/GrahamNeal13/MechaCar_Statistical_Analysis-/blob/7756d61a2a458b3658b711cc92b7546a739eba59/resources/a:b_test_crit.png)
+
+Since categories like gas useage, transmission type, and horsepower are all public statistics we can use this information from competitors without having to worry about any corporate espionage threats.  And prove to the public that the MechaCar is the future of automotive transportation.  
